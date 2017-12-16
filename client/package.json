@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint-plugin-html": "^4.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
@@ -12,5 +15,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2"
   }
 }
